@@ -1,0 +1,297 @@
+body {
+    font-family: "Heebo", sans-serif;
+    margin: 0;
+    color: #21243D
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 15px auto 0 auto;
+}
+
+#nav-links {
+    display: flex;
+    gap: 65px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 75px auto;
+}
+
+#header-content {
+    width: 630px;
+}
+
+#menu-button {
+    display: none;
+}
+
+#header-image {
+    margin: auto 0;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+#button-cv {
+    background-color: #FF6464;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+#subtitle {
+    font-size: 16px;
+    margin: 35px 0;
+}
+
+#blog-content {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#blog {
+    background-color: #EDF7FA;
+    padding-bottom: 35px;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.article-blog {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    width: 543px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    max-width: 48%;
+}
+
+.article-title {
+    font-size: 26px;
+}
+
+.date-categorie {
+    font-size: 18px;
+    display: flex;
+    gap: 25px;
+}
+
+.article-description {
+    font-size: 16px;
+}
+
+#projets {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.projet {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.projet-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+.date-type {
+    display: flex;
+    gap: 25px;
+}
+
+.projet-date {
+    background-color: #142850;
+    border-radius: 16px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 15px;
+}
+
+.projet-type {
+    color: #8695a4;
+    font-size: 20px;
+}
+
+.projet-description {
+    font-size: 16px;
+}
+
+#contact {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#contact-content {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#contact-intro {
+    font-size: 20px;
+}
+
+#contact-email {
+    font-size: 16px;
+}
+
+.socials-link {
+    font-size: 16px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+#coordonnees {
+    flex: 1;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+input,
+select,
+textarea {
+    background-color: #f7f7f7;
+    border: none;
+    height: 46px;
+}
+
+textarea {
+    height: 165px;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    height: 56px;
+}
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#icons-socials {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#copyright {
+    font-size: 14px;
+    color: #21243D;
+}
+
+@media (max-width: 700px) {
+    .nav-link {
+        display: none;
+    }
+
+    #menu-button {
+        display: block;
+    }
+
+    #articles {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .article-blog {
+        width: 100%;
+        max-width: none;
+    }
+
+    .date-categorie {
+        gap: 5px;
+    }
+
+    .projet {
+        flex-direction: column;
+    }
+
+    .projet-image {
+        width: 100%;
+    }
+
+    #coordonnees {
+        display: none;
+    }
+
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #header-content {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+
+}
